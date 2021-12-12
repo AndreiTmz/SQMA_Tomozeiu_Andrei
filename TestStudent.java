@@ -34,7 +34,7 @@ public class TestStudent {
 	}
 
 	@Test
-	public void testSetGetgrades() {
+	public void testSetGetGrades() {
 		ArrayList<Integer> grades = new ArrayList<Integer>();
 		grades.add(10);
 		grades.add(8);
@@ -53,7 +53,7 @@ public class TestStudent {
 	}
 	
 	@Test
-	public void testSetGetage()
+	public void testSetGetAge()
 	{
 		int expectedAge = 35;
 		try {
@@ -66,7 +66,7 @@ public class TestStudent {
 	}
 	
 	@Test
-	public void testSetGetname() {
+	public void testSetGetName() {
 		String expectedName = "testName";
 		student.setName(expectedName);
 		String name = student.getName();
