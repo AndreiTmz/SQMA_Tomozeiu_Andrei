@@ -9,7 +9,7 @@ public class SingleJUnitTestRunner {
                 classAndMethod[1]);
 
         Result result = new JUnitCore().run(request);
-	System.out.println(result.wasSuccessful() ? "Test passed" : "Test failed");
+	System.out.println(classAndMethod[1] + ":" + (result.wasSuccessful() ? "Test passed" : "Test failed"));
         System.exit(result.wasSuccessful() ? 0 : 1);
     }
 }
